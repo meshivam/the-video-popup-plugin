@@ -26,8 +26,8 @@ The pop-up is triggered when the user scrolls to the bottom of the page (footer)
 * Click on the ‘Video Popup’ setting button to get the settings page.
 * By default the height is 325px and width is 420px. You can however define your own custom dimensions.
 
-				== Changelog ==
+== Changelog ==
 
-				= 1.0 =
-				* This is the initial release.
+= 1.0 =
+* This is the initial release.
 
