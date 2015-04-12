@@ -19,7 +19,6 @@ function tvpp_settings_page() {
 ?>
 <div class="wrap">
 <h2>The Video Popup Plugin</h2>
-<small><b>* Dimensions in px</b></small>
 
 <form method="post" action="options.php">
 		<?php settings_fields( 'tvpp-settings-group' ); ?>
@@ -27,16 +26,16 @@ function tvpp_settings_page() {
 		<table class="form-table">
 				<tr valign="top">
 				<th scope="row">Frame Height:</th>
-				<td><input type="number" name="tvpp_height" value="<?php echo rtrim(get_option('tvpp_height'), 'px'); ?>" /></td>
+				<td><input type="number" name="tvpp_height" value="<?php echo rtrim(get_option('tvpp_height'), 'px'); ?>" placeholder="325" />px</td>
 				</tr>
 
 				<tr valign="top">
 				<th scope="row">Frame Width:</th>
-				<td><input type="number" name="tvpp_width" value="<?php echo rtrim(get_option('tvpp_width'), 'px'); ?>" /></td>
+				<td><input type="number" name="tvpp_width" value="<?php echo rtrim(get_option('tvpp_width'), 'px'); ?>" placeholder="420" />px</td>
 				</tr>
 
 				<tr valign="top">
-				<th scope="row">YouTube URL:</th>
+				<th scope="row">YouTube URL: *</th>
 				<td><input type="text" name="tvpp_video_url" value="<?php echo get_option('tvpp_video_url'); ?>" /></td>
 				</tr>
 		</table>
