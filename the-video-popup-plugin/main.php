@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: The Video Pupup Plugin
+Plugin Name: The Video Pupup
 Plugin URI: http://codefiddle.wordpress.com
 Description: Simplest way to add a minimizable video popup to footer. 
 Version: 1.0

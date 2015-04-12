@@ -1,4 +1,4 @@
-=== The Video Popup Plugin ===
+=== The Video Popup ===
 Contributors: singhsivam
 Donate link: https://codefiddle.wordpress.com/
 Tags: video, popup
